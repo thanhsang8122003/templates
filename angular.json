@@ -24,7 +24,7 @@
               "file-saver",
               "crypto-js"
             ],
-            "outputPath": "docs",
+            "outputPath": "docs/template1",
             "baseHref": "/templates/template1/",
             "index": "src/index.html",
             "main": "src/main.ts",
