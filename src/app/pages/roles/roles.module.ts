@@ -4,7 +4,7 @@ import { RolesComponent } from './roles.component';
 import { Routes, RouterModule } from '@angular/router';
 import { BannerDAComponent } from './banner-da/banner-da.component';
 import { CertificatesDAComponent } from './certificates-da/certificates-da.component';
-import { GoalComponent } from '../home/goal/goal.component';
+import { HomeModule } from '../home/home.module';
 import { SimilarRoleDAComponent } from './similar-role-da/similar-role-da.component';
 
 const routes: Routes = [
@@ -20,11 +20,11 @@ const routes: Routes = [
     BannerDAComponent,
     CertificatesDAComponent,
     SimilarRoleDAComponent,
-    GoalComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    HomeModule
   ]
 })
 export class RolesModule { }
