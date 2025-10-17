@@ -24,7 +24,8 @@
               "file-saver",
               "crypto-js"
             ],
-            "outputPath": "dist/affiliate",
+            "outputPath": "docs",
+            "baseHref": "/templates/template1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
